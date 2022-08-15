@@ -1,0 +1,318 @@
+@media screen and (max-width:1600px) {
+    header .wrapper { padding-right: 150px }
+}
+
+@media screen and (max-width:1550px) {
+    .best__container,
+    .catalog__container {
+        text-align: center;
+    }
+    .best__container__cards,
+    .catalog__container__cards {
+        display: inline-grid;
+        grid-gap: 16px;
+        text-align: left;
+    }
+    .best__card,
+    .catalog__card {
+        width:auto;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .asic {
+        margin-bottom: 46px;
+    }
+    .asic .wrapper { padding: 0; }
+    .asic__container { justify-content: center; }
+    .asic__title {
+        font-size: 30px;
+        padding: 0 20px;
+    }
+    .asic__img { display:none }
+    .asic__text {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 37px;
+    }
+    .asic__text img {
+        display: block;
+        margin-top: 35px;
+        margin-bottom: 46px;
+        width: 100%;
+    }
+    .asic__text p {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .nav-bar {
+        display: none;
+    }
+    .menu-burger {
+        display: block;
+    }
+
+    .best__card,
+    .catalog__card {
+        width: 350px;
+    }
+
+    header .wrapper { padding-right: 40px }
+    .intro__contacts {
+        padding: 10px 40px 44px 20px;
+    }
+
+    
+    .process .wrapper { text-align: center }
+    .process__blocks {
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    header .wrapper { padding-right: 26px }
+    .header-logo a {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    .popup-offer {
+        width: 90%;
+        padding: 55px 10% 0 10%;
+        max-height: 460px;
+    }
+
+    .wrapper { padding: 0 20px }
+
+    .intro {
+        background-size: cover;
+        min-height: 640px;
+        padding-bottom: 104px;
+    }
+    .intro__btn {
+        max-width: 173px;
+        height: 34px;
+    }
+    .intro__btn a {
+        font-size: 14px;
+    }
+    .intro__text1 {
+        font-size: 30px;
+        line-height: 38px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .intro__text2 {
+        font-size: 14px;
+        margin-bottom: 104px;
+    }
+    .intro__contacts {
+        display:flex;
+        align-items: flex-end;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0;
+        position: static;
+    }
+    .intro__contact {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: left;
+    }
+    .intro__contact a {
+        font-size: 14px;
+    }
+    .intro__contact div {
+        display: block;
+        margin: 0;
+    }
+    .intro__network img { width:25px }
+    .intro__network div { margin: 0 }
+    .intro__network div:not(:last-child) { 
+        margin-bottom: 40px;
+     }
+
+
+    .best {
+        padding: 36px 0 40px 0;
+    }
+    .best__title {
+        font-size: 30px;
+        margin-bottom: 31px;
+    }
+    .best__container__cards,
+    .catalog__container__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 29px;
+        margin-bottom: 35px;
+    }
+    .best__card,
+    .catalog__card {
+        width: 280px;
+    }
+    .best__card__img,
+    .catalog__card__img {
+        margin-bottom: 14px;
+        min-height: 0;
+    }
+    .best__card__info,
+    .catalog__card__info {
+        padding: 0 20px;
+    }
+    .card__title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .card__stat:not(:last-child)  {
+        margin-bottom: 0;
+    }
+    .card__stat:last-child {
+        margin-bottom: 64px;
+    }
+    .card__footer {
+        position: relative;
+    }
+    .card__footer__price {
+        font-size: 24px;
+        position: absolute;
+        top:-42px; left:20px;
+    }
+    .card__footer__btn {
+        width: 103px;
+        height: 34px;
+    }
+    .card__number {
+        font-size: 10px;
+        margin-bottom: 22px;
+    }
+    .card__status {
+        font-size: 14px;
+    }
+    .best__btn,
+    .catalog__btn {
+        width: 193px;
+        height: 34px;
+    }
+    .best__btn a,
+    .catalog__btn a {
+        font-size: 14px;
+    }
+
+
+    .process {
+        margin-bottom: 38px;
+        padding: 29px 0 56px 0;
+
+    }
+    .process__title {
+        font-size: 30px;
+        margin-bottom: 31px;
+    }
+    .process__blocks {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+    }
+    .process__item__img {
+        margin-bottom: 14px;
+    }
+    .process__item__img img {
+        width: 80px;
+    }
+    .process__item__text {
+        font-size: 16px;
+    }
+
+
+
+    .catalog {
+        margin-bottom: 56px;
+    }
+    .catalog__title {
+        font-size: 30px;
+        margin-bottom: 31px;
+    }
+
+
+    .form {
+        margin-bottom: 61px;
+        padding: 20px 0 61px 0;
+        width: 300px;
+        height: auto;
+    }
+    .form__title {
+        font-size: 30px;
+        margin-bottom: 27px;
+    }
+    .form__text {
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+    .form__input {
+        margin:0 auto 10px auto;
+        max-width: 250px;
+    }
+    .form .btn {
+        margin-top: 49px;
+        width: 149px;
+    }
+
+
+    footer {
+        padding: 24px 0 196px 0;
+        position: relative;
+    }
+    .footer__logo {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 38px;
+    }
+    .footer__list li a {
+        font-size: 16px;
+    }
+    .footer__list ul li:not(:last-child),
+    .footer__contacts div:not(:last-child) {
+        margin-bottom: 18px;
+    }
+    .footer__contacts div:not(:last-child) { margin: 0; }
+    .footer__contacts {
+        display: flex;
+        flex-direction: column-reverse;
+        position: absolute;
+        right:20px;
+        text-align: right;
+        width: 100%;
+    }
+    .footer__contact {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 40px;
+    }
+    .footer__contact a {
+        font-size: 14px;
+    }
+    .footer__network {
+        flex-direction: column;
+        gap: 33px;
+        margin-bottom: 98px;
+    }
+    .footer__network img {
+        width: 28px;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+    .intro {
+        background: url('../img/intro-bg-mobile.png') no-repeat;
+        background-size: cover;
+    }
+
+
+    .card__stat:not(:last-child) { margin-bottom: 10px; }
+    .card__stat span:first-child { font-size: 14px; }
+    .card__stat span { font-size: 14px; }
+}
